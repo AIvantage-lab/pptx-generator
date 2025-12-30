@@ -1,0 +1,27 @@
+{
+  "name": "pptx-generator",
+  "version": "1.0.0",
+  "description": "AIvantage PowerPoint Generator - Microservice for generating academic presentations",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "pptx",
+    "powerpoint",
+    "generator",
+    "aivantage",
+    "education"
+  ],
+  "author": "AIvantage",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pptxgenjs": "^3.12.0",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
